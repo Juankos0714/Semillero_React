@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline:none; 
+    
+}
+html, body, #root {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e5e5e5;
+}
+.general-container {
+  position: relative;
+}
+.btn-purchase {
+  margin: 3em;
+    color: #fcfcf7;
+    background-color: #1d85da;
+    border:none;
+    padding:0.5rem 2.5rem;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 6px;
+  
+}
+.modal{
+  position: absolute;
+  margin:10em;
+  padding: 1em;
+  background-color: #ffffff;
+  border-radius: 15px;
+  height: 25vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.modal-options{
+  display: flex;
+  justify-content: space-around;
+}
